@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+Backend/env/
+env/
+venv/
+
+# Django
+Backend/db.sqlite3
+*.sqlite3
+Backend/coderr_app/migrations/__pycache__/
+media/
+staticfiles/
+
+# Env / secrets
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
